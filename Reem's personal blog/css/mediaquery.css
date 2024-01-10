@@ -1,0 +1,47 @@
+
+/* Media query for index.html */
+
+@media screen and (max-width: 856px) {
+    .side-bar {
+        display: none;
+    }
+
+    .blog-cards {
+        max-width: 70%;
+        word-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+    .nav {
+        justify-content: center;
+    }
+
+    .nav-search {
+        display: none;
+    }
+        
+}
+
+/* Media query for blog-post.html */
+
+@media screen and (max-width: 768px) {
+
+    .author-details{
+        display: block;
+        
+    }
+
+    .blog-section{
+       display: block;
+    }
+
+    .blog-section>.single-blog-desc, 
+    .blog-section>.single-blog-img{
+       width: 90%;
+    }
+    
+}

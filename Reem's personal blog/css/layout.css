@@ -1,0 +1,52 @@
+
+/* Grid layout for index.html */
+
+.grid-content{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-areas:
+    "nav nav nav"
+    "side cards cards"
+    "side cards cards"
+    "side cards cards"
+    "footer footer footer";
+}
+
+.nav{
+height: 50px;
+display: flex;
+justify-content: end;
+align-items: center;
+grid-area: nav;
+background-color: black;
+}
+
+.side-bar{
+    grid-area: side;
+    background-color: white;
+    border: 1px solid #a5a5a5;
+}
+
+.blog-cards{
+    grid-area: cards;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,47%);
+    grid-auto-rows: minmax(300px, auto);
+}
+
+
+/* Flex layout for blog-post.html */
+
+.author-details{
+    margin: 30px 0;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+}
+
+.blog-section{
+    margin: 20px 0;
+    display: flex;
+}

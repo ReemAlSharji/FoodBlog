@@ -1,0 +1,26 @@
+
+.nav>a, 
+.nav-search>*{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.search-box{
+    height: 25px;
+    color: black;
+}
+
+.nav-search>button{
+    padding: 8px 40px;
+    margin-right: 30px;
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.nav-search>button>a{
+    text-decoration: none;
+    color: white;
+}
